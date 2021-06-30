@@ -27,9 +27,12 @@ There are 2 sources file named as:
 1.	Driver.cpp
 2.	MLFQ.h header
 
-There are also 3 sample input files, input1.txt, input2.txt and input3.txt. We will use it in our main program to read data from file and run MLFQ algorithm on sample data.
-Driver.cpp: 
+There are also 3 sample input files, input1.txt, input2.txt and input3.txt. We will use it in our main program to read data from file and run MLFQ algorithm on sample data. 
+## Driver.cpp: 
 •	The main() function is written in my Drive.cpp file. 
 •	In main(), I create object of MLFQ, and call method setFileName(fileName);
 where filename is of string type. This method will set file name attribute in MLFQ class. That will load data from this filename.
 •	Then we will call the start() method of MLFQ class object. 
+
+## Output
+!["Output of program"](Output.png)
